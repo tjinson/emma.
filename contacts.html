@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>   
+    <link rel="shortcut icon" href="image/favicon.ico">
+    <link rel="apple-touch-icon" href="image/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="image/android-chrome-192x192.png">
+    <br>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="emma.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="wrapper">
+        <div class="container">
+        <header>
+            <h1>emma.</h1>
+        </header>  
+        <nav>
+            <ul>
+                <li>&nbsp; <a href=home.html>Home</a>&nbsp;</li>
+                <li>&nbsp; <a href="home.html#AboutUs"> About Us</a>&nbsp;</li>
+                <li>&nbsp; <a href=products.html>Products</a>&nbsp;</li>
+                <li>&nbsp; <a href=donate.html>Donate</a>&nbsp;</li>
+                <li>&nbsp; <a href=contacts.html>Contacts</a>&nbsp;</li>
+            </ul>
+        </nav>
+        </div>
+        </div>
+
+        <div class="paper">
+            <!--Contact info-->
+            <section class="contact">
+                <div class="content">
+                    <h2>Contact us</h2>
+                    <p>Have any questions? Reach out and we'll do out best to help you sort it out!</p><br>
+                </div>
+                <div class="container">
+                    <div class="contactInfo">
+                        
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>170-01-07, Plaza Gurney,<br>Persiaran Gurney, Pulau Tikus, 10250<br>George Town, Penang</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>mail@marketing.emma.com<br>tayjinson123@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>012-439 1710<br>017-549 2335<br>04-899 5230</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of Contact info-->
+
+                    <!--Form-->
+                    <div class="contactForm" style="float: right">
+                        <form>
+                            <h2>Send Message / Feedback</h2>
+                            <div class="inputBox">
+                                <input type="text" name="Full Name" required="required">
+                                <span>Full Name</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="email" required="required">
+                                <span>Email</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="Feedback" required="required" >
+                                <span>Send your Message...</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" name=" " required="Submit">
+                            </div>
+                        </form>
+                    </div>
+                    <!--End of Form-->
+
+                </div>
+
+            </section>
+        </div>
+            <footer>
+                <i>Copyright &copy; 2021 emma.co <br></i>
+                <a href="mailto:mail@marketing.emma.com">mail@marketing.emma.com</a>
+            </footer>
+        </body>
+
+        <style>
+        header{
+            background-color: #fbfcfd;
+            width: 73%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 2.5px;
+            padding-bottom: 2.5px;    
+        }
+
+        .paper{
+            background-image: linear-gradient( #FAF6F2,#faf7f5);
+            padding-top: 20px;
+            padding-bottom: 50px;
+            border-radius: 8%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 3%;
+            margin-top: 1%;
+        }
+
+        /*Contact Info modifying*/
+        .contact{
+            position: relative;
+            padding:0 120px 80px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .contact .content{
+            max-width: 1000px;
+            text-align: center;
+        }
+
+        .contact .content h2{
+            font-size: 45px;
+            font-weight: 500;
+            color: Black;
+        }
+
+        .contact .content p{
+            font-weight: 300;
+            color:grey;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+
+        .container{
+            width:100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container .contactInfo{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container .contactInfo .box{
+            position:relative;
+            padding: 20px 0;
+            display:flex;
+        }
+
+        .box{
+            left: 125px;
+        }
+
+        .container .contactInfo .box .icon{
+            min-width: 50px;
+            height: 50px;
+            background:#fff;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            border-radius:50%;
+            font-size: 22px;
+        }
+
+        .container .contactInfo .box .text{
+            display: flex;
+            margin-left:20px;
+            font-size: 16px;
+            color:Black;
+            flex-direction: column;
+            font-weight: 300;   
+        }
+
+        .container .contactInfo .box .text h3{
+            font-weight:500;
+            color:black;
+            font-family: 'Roboto', sans-serif;
+        }
+        /*End of Contact Info modifying*/
+
+        /*Feedback form modifying*/
+        .contactForm{
+            width:40%;
+            padding:40px;
+            background: #fff;
+            margin-top: -40%;
+        }
+
+        .contactForm h2{
+            font-size: 40px;
+            color:#333;
+            font-weight: 500;
+        }
+
+        .contactForm .inputForm{
+            position: relative;
+            width: 100%;
+            margin-top: 100px;
+        }
+
+        .contactForm .inputBox input{
+            width:100%;
+            padding:5px 0;
+            font-size: 16px;
+            margin:10px 0;
+            border:none;
+            border-bottom: 2px solid #333;
+            outline:none;
+            resize:none;
+        }
+
+        .contactForm .inputBox span{
+            position:absolute;
+            left: 56%;
+            padding:5px 0;
+            font-size: 16px;
+            margin:10px 0;
+            pointer-events: none;
+            transition: 0.5s;
+            color:#666;
+        }
+
+        .contactForm .inputBox input:focus~ span,
+        .contactForm .inputBox input:valid~ span,
+        .contactForm .inputBox textarea:focus~ span,
+        .contactForm .inputBox textarea:valid~ span
+        {
+            color:indianred;
+            font-size: 12px;
+            transform:translateY(-20px);
+
+        }
+
+        .contactForm .inputBox input[type="submit"]
+        {
+            border:none;
+            cursor: pointer;
+            padding:10px;
+            font-size: 20px;
+        }
+
+        input[type=submit]:hover {
+            background-color: #d6d6d6;
+        }
+        /*End of Feedback form modifying*/
+        </style>
+
+        <audio controls autoplay >
+            <source src="audio/Jasmine Piano - DPR Live.mp3" type="audio/mpeg">
+        </audio>
+</html>
